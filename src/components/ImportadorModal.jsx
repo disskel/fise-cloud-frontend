@@ -101,7 +101,7 @@ const ImportadorModal = ({ isOpen, onClose, onRefresh }) => {
           tipo_instalacion: f["Tipo de instalación"] || null,
           puntos_proyectados: parseInt(f["Número de puntos de instalación proyectados"]) || 0,
           fecha_registro_portal: formatearParaPostgres(f["Fecha de registro de la Solicitud en el Portal"]),
-          fecha_aprobacion_contrato: formatearParaPostgres(f["Fecha de aprobación del contrato"]),
+          fecha_aprobacion_contrato: formatearParaPostgres(f["Fecha de suscripción de contrato"]),
           fecha_fin_interna: formatearParaPostgres(f["Fecha de finalización de la Instalación Interna"])
         };
       });

@@ -8,7 +8,7 @@ const COLUMNAS_PORTAL_REQUERIDAS = [
   "Nombre del solicitante",
   "Dirección",
   "Número de Contrato de Suministro",
-  "Fecha de aprobación del contrato",
+  "Fecha de suscripción de contrato",
   "Distrito",
   "Provincia",
   "Celular",
